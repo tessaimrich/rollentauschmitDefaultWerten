@@ -7,6 +7,7 @@ public class BubbleSort {
         
         int [] array = {5, 2, 3, 9, 11};
         int [] bo= {3,3};
+
         System.out.println("Unsortiertes array: " );
         for (int num : array) {
             
@@ -18,6 +19,7 @@ public class BubbleSort {
         
         do {
             //bitttteee
+
             for (int i = 0; i < array.length - 1; i++) {
                 
                 if (array[i] > array[i+1]) {
@@ -37,7 +39,7 @@ public class BubbleSort {
         System.out.println("\nSortiertes array: " );
         for (int num : array) {
             
-            System.out.print(num + " "+ "");
+            System.out.print(num + " "+ " ");
         }
         
         System.out.println("\nSwapcounter: " + swapcounter);
