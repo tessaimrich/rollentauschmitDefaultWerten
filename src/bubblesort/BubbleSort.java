@@ -6,7 +6,7 @@ public class BubbleSort {
     public static void main(String[] args) {
         
         int [] array = {5, 2, 3, 9, 11};
-        
+        int [] bo= {3,3};
         System.out.println("Unsortiertes array: " );
         for (int num : array) {
             
@@ -25,13 +25,13 @@ public class BubbleSort {
                     int temp = array[i];
                     array[i] = array[i+1];
                     array[i+1] = temp;
-                    
+                    //baby
                     swapped = true;
                     //please
                     swapcounter++;
                 }
             }
-            
+            //baby
         }while(swapped == false);
         
         System.out.println("\nSortiertes array: " );
