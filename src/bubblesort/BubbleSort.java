@@ -12,11 +12,14 @@ public class BubbleSort {
             
             System.out.print(num + " ");
         }
-        
-        boolean swapped = false;
+        //Übung s.61 Lesbarkeit längerer Zahlen
+        int e=2_0000_000;
+
+
         int swapcounter = 0;
-        
+        boolean swapped;
         do {
+            swapped = false;
             //bitttteee
             for (int i = 0; i < array.length - 1; i++) {
                 
@@ -32,11 +35,10 @@ public class BubbleSort {
                 }
             }
             
-        }while(swapped == false);
+        }while(swapped);
         
         System.out.println("\nSortiertes array: " );
         for (int num : array) {
-            
             System.out.print(num + " "+ "");
         }
         
@@ -44,3 +46,8 @@ public class BubbleSort {
     }
     
 }
+/*
+swapped speichert, ob ein Tausch stattgefunden hat.
+swapcounter zählt die Anzahl der Tauschaktionen.
+
+ */
